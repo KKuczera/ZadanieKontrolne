@@ -1,0 +1,6 @@
+﻿<ProjectConfiguration>
+  <Settings>
+    <AllowCodeAnalysis>True</AllowCodeAnalysis>
+    <AllowStaticCodeContractChecking>True</AllowStaticCodeContractChecking>
+  </Settings>
+</ProjectConfiguration>

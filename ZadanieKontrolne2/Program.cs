@@ -6,52 +6,37 @@ namespace ZadanieKontrolne2
     {
         static void Calculator()
         {
-            var calculator = new ViewInfo();
             Console.WriteLine("\nDo jakiego kalkulatora chcesz przejść?:" +
                               "\n\t1. Zwykłego/naukowego,\n\t2. BMI,\n\t3. Prędkości," +
                               "\n\t4. Obliczającego pole figury,\n\t5. Obliczającego obwód figury," +
-                              "\n\t6. Obliczającego ilość znaków w napisie,\n\t7. Obliczającego" +
-                              "różnicę czasu.");
+                              "\n\t6. Obliczającego ilość znaków w napisie.");
             var kOC = Console.ReadLine();
-            var canConvertkOC = short.TryParse(kOC, out var kindOfCalculator);
+            var canConvertKindOfCalculator = short.TryParse(kOC, out var kindOfCalculator);
 
-            if (canConvertkOC)
+            if (canConvertKindOfCalculator)
             {
                 switch (kindOfCalculator)
                 {
                     case 1:
-                        calculator.standardCalculator();
+                        ViewInfo.StandardCalculator();
                         break;
                     case 2:
-                        calculator.bmiCalculator();
+                        ViewInfo.bmiCalculator();
                         break;
                     case 3:
-                        Console.WriteLine("csadas");
-
-                        //speed();
+                        ViewInfo.speedCalculator();
                         break;
                     case 4:
-                        Console.WriteLine("csadas");
-
-                        //figureArea();
+                        ViewInfo.figureArea();
                         break;
                     case 5:
-                        Console.WriteLine("csadas");
-
-                        //figurePerimeter();
+                        ViewInfo.figurePerimeter();
                         break;
                     case 6:
-                        Console.WriteLine("csadas");
-
-                        //length();
-                        break;
-                    case 7:
-                        Console.WriteLine("csadas");
-
-                        //time();
+                        ViewInfo.length();
                         break;
                     default:
-                        Console.WriteLine("Podaj poprawną cyfrę, żeby przejść do odpowiedniego kalkulatora.");
+                        Console.WriteLine("Podano niepoprawną wartość.");
                         break;
                 }
             }

@@ -44,6 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculators.cs" />
+    <Compile Include="FigureData.cs" />
+    <Compile Include="InsertDataBMICal.cs" />
+    <Compile Include="InsertDataDateCal.cs" />
+    <Compile Include="InsertDataFigureAreaCal.cs" />
+    <Compile Include="InsertDataFigurePerimeterCal.cs" />
+    <Compile Include="InsertDataLengthCal.cs" />
+    <Compile Include="InsertDataSpeedCal.cs" />
     <Compile Include="InsertData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
