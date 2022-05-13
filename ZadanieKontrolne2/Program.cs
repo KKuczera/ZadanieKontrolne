@@ -20,7 +20,7 @@ namespace ZadanieKontrolne2
                 switch (kindOfCalculator)
                 {
                     case 1:
-                        calculator.standardCalculator();
+                        calculator.StandardCalculator();
                         break;
                     case 2:
                         calculator.bmiCalculator();

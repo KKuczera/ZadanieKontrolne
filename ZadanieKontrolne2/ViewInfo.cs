@@ -8,7 +8,7 @@ namespace ZadanieKontrolne2
         public bool canConvertSign1;
 
         //Standard calculator
-        public void standardCalculator()
+        public void StandardCalculator()
         {
             var dataInsert = new InsertData();
             var standardCalculator = new Calculators();
@@ -110,7 +110,8 @@ namespace ZadanieKontrolne2
             var data = new InsertData();
             var standardCalculator = new Calculators();
 
-            //data.
+            data.speedData();
+            
         }
     }
 }
