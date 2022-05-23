@@ -4,8 +4,6 @@ namespace ZadanieKontrolne2
 {
     public class Calculators
     {
-        //static short YearDifference, MonthDifference, DayDifference;
-
         public static float add(float num1, float num2)
         {
             return num1 + num2;
@@ -105,55 +103,5 @@ namespace ZadanieKontrolne2
         {
             return (short) writing.Length;
         }
-
-        /*public void CalcDateDelta(bool canConvertYear, bool canConvertMonth, bool canConvertDay, short month, short day,
-            DateTime thisDate, short year)
-        {
-            if (canConvertYear && canConvertMonth && canConvertDay)
-            {
-                if (month >= 1 && month <= 12 && day >= 1 && day <= 31)
-                {
-                    const short daysMax = 31;
-                    const short daysMin = 1;
-                    const short monthsMax = 12;
-                    const int monthsMin = 1;
-
-                    var yearDifference = (short)(thisDate.Year - year);
-                    var monthDifference = (short)(thisDate.Month - month);
-                    var dayDifference = (short)(thisDate.Day - day);
-
-                    if (dayDifference < 0)
-                    {
-                        monthDifference--;
-                        dayDifference *= -1;
-                        dayDifference = (short)(daysMax - dayDifference - 1);
-                    }
-
-                    if (dayDifference > 31)
-                    {
-                        monthDifference++;
-                        dayDifference = (short)(daysMin + dayDifference - 1);
-                    }
-
-                    if (monthDifference < 0)
-                    {
-                        yearDifference--;
-                        monthDifference *= -1;
-                        monthDifference = (short)(monthsMax - monthDifference);
-                    }
-
-                    if (monthDifference > 12)
-                    {
-                        yearDifference++;
-                        monthDifference = (short)(monthsMin + monthDifference);
-                    }
-
-                    var Year = yearDifference;
-                    var Month = monthDifference;
-                    var Day = dayDifference;
-                }
-            }
-            
-        }*/
     }
 }

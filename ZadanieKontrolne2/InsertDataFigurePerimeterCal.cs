@@ -6,7 +6,7 @@ namespace ZadanieKontrolne2
     {
         public static short WhichFigure;
 
-        public static float lengthA, lengthB, lengthC, lengthH, lengthR;
+        public static float lengthA, lengthB, lengthC, lengthR;
 
         public static void figurePerimeterData()
         {
@@ -30,37 +30,19 @@ namespace ZadanieKontrolne2
                 switch (WhichFigure)
                 {
                     case 1:
-                        //FigureData.insertLengthA();
-
-                        InsertData.insertNumber("Wprowadź długość boku a:");
-                        lengthA = InsertData.number;
+                        lengthA = InsertData.insertNumber("Wprowadź długość boku a:");
                         break;
                     case 2:
-                        /*FigureData.insertLengthA();
-                        FigureData.insertLengthB();*/
-
-                        InsertData.insertNumber("Wprowadź długość boku a:");
-                        lengthA = InsertData.number;
-                        InsertData.insertNumber("Wprowadź długość boku b:");
-                        lengthB = InsertData.number;
+                        lengthA = InsertData.insertNumber("Wprowadź długość boku a:");
+                        lengthB = InsertData.insertNumber("Wprowadź długość boku b:");
                         break;
                     case 3:
-                        /*FigureData.insertLengthA();
-                        FigureData.insertLengthB();
-                        FigureData.insertLengthC();*/
-
-                        InsertData.insertNumber("Wprowadź długość boku a:");
-                        lengthA = InsertData.number;
-                        InsertData.insertNumber("Wprowadź długość boku b:");
-                        lengthB = InsertData.number;
-                        InsertData.insertNumber("Wprowadź długość boku c:");
-                        lengthC = InsertData.number;
+                        lengthA = InsertData.insertNumber("Wprowadź długość boku a:");
+                        lengthB = InsertData.insertNumber("Wprowadź długość boku b:");
+                        lengthC = InsertData.insertNumber("Wprowadź długość boku c:");
                         break;
                     case 4:
-                        //FigureData.insertLengthR();
-
-                        InsertData.insertNumber("Wprowadź długość promienia (r):");
-                        lengthR = InsertData.number;
+                        lengthR = InsertData.insertNumber("Wprowadź długość promienia (r):");
                         break;
                     default:
                         Console.WriteLine("Podano niepoprawną wartość.");

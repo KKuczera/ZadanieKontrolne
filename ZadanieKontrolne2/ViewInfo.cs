@@ -34,7 +34,6 @@ namespace ZadanieKontrolne2
                 {
                     case 1:
                         number1 = InsertData.insertNumber("\nPodaj pierwszą liczbę: ");
-
                         number2 = InsertData.insertNumber("\nPodaj drugą liczbę: ");
 
                         Console.WriteLine("Suma wynosi {0,2}", 
@@ -42,7 +41,6 @@ namespace ZadanieKontrolne2
                         break;
                     case 2:
                         number1 = InsertData.insertNumber("\nPodaj pierwszą liczbę: ");
-
                         number2 = InsertData.insertNumber("\nPodaj drugą liczbę: ");
 
                         Console.WriteLine("Różnica wynosi {0,2}",
@@ -50,7 +48,6 @@ namespace ZadanieKontrolne2
                         break;
                     case 3:
                         number1 = InsertData.insertNumber("\nPodaj pierwszą liczbę: ");
-
                         number2 = InsertData.insertNumber("\nPodaj drugą liczbę: ");
 
                         Console.WriteLine("Iloraz wynosi {0,2}",
@@ -58,7 +55,6 @@ namespace ZadanieKontrolne2
                         break;
                     case 4:
                         number1 = InsertData.insertNumber("\nPodaj pierwszą liczbę: ");
-
                         number2 = InsertData.insertNumber("\nPodaj drugą liczbę: ");
 
                         if (number2 != 0)
@@ -85,7 +81,6 @@ namespace ZadanieKontrolne2
                         break;
                     case 6:
                         number1 = InsertData.insertNumber("\nDo jakiej potęgi chcesz podnieść liczbę?: ");
-
                         number2 = InsertData.insertNumber("\nJaką liczbę chcesz podnieść do potęgi?: ");
 
                         Console.WriteLine("{0} do potęgi {1} to {2}", number2, number1, 
@@ -93,7 +88,6 @@ namespace ZadanieKontrolne2
                         break;
                     case 7:
                         number1 = InsertData.insertNumber("\nPodaj liczbę: ");
-
                         number2 = InsertData.insertNumber("\nPodaj procent, jaki chcesz obliczyć: ");
 
                         Console.WriteLine("{0}% z liczby {1} to {2}", 
@@ -110,11 +104,8 @@ namespace ZadanieKontrolne2
         //BMI Calculator
         public static void bmiCalculator()
         {
-            InsertData.insertNumber("\nPodaj wzrost (w metrach): ");
-            number1 = InsertData.number;
-
-            InsertData.insertNumber("\nPodaj masę ciała (w kg): ");
-            number2 = InsertData.number;
+            number1 = InsertData.insertNumber("\nPodaj wzrost (w metrach): ");
+            number2 = InsertData.insertNumber("\nPodaj masę ciała (w kg): ");
 
             var result = Calculators.bmi(number1, number2);
 
