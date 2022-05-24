@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadanieKontrolne2", "ZadanieKontrolne2\ZadanieKontrolne2.csproj", "{58539DB2-73CE-4E2F-AA5A-FD96068EAFE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadanieKontrolne", "ZadanieKontrolne2\ZadanieKontrolne.csproj", "{58539DB2-73CE-4E2F-AA5A-FD96068EAFE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadanieKontrolneTests", "ZadanieKontrolneTests\ZadanieKontrolneTests.csproj", "{5F7D0403-A2E7-4F17-9B8B-F711991B45A1}"
 EndProject
