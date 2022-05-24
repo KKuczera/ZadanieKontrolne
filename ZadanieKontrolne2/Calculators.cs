@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ZadanieKontrolne2
+namespace ZadanieKontrolne
 {
     public class Calculators
     {

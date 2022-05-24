@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ZadanieKontrolne2
+namespace ZadanieKontrolne
 {
     internal class Program
     {
